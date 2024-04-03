@@ -1,0 +1,8 @@
+*{background-color:rgb(169, 199, 199);}
+.one{
+    border: 3px solid red;
+}   
+img{
+    width:50%;
+    height: 50%;
+}

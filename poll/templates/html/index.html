@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends 'html/base.html' %}
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+<body>
+    {% block content%}
+    <h1>Hi Welcome to django project</h1>
+
+
+
+    <p class = 'one'>Hi Welcome </p>
+
+    
+    <img src="{% static 'images/test.png' %}" alt="test image   ">
+
+    {% endblock %}
+</body>
+</html>
