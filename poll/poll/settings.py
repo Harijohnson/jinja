@@ -139,18 +139,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-print('templates directory is :' , TEMPLATES_DIR)
-
-print('Static  directory is :' , STATIC_DIR)
-
-
-
-
-
-
-
-
-
-
-
 
